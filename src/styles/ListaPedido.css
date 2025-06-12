@@ -1,0 +1,67 @@
+.total-ventas {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #bfbfbf; /* Fondo opcional */
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+  }
+  
+  .fecha-container {
+    display: flex;
+    top: 100px;
+    right: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f8f8f8; /* Fondo opcional */
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+  }
+  .table {
+    border-collapse: collapse; /* Asegura que los bordes no se dupliquen */
+    box-shadow: 4px 4px 8px rgb(0, 0, 0); /* Sombra en toda la tabla */
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #000000; /* Borde sutil para las celdas */
+    padding: 8px;
+  }
+  
+  .table th, .table td {
+    text-align: center; /* Centra el texto en las celdas */
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .page-item {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .page-item.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .page-item:hover {
+    background-color: #ddd;
+  }
+  
+  
