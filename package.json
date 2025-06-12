@@ -1,0 +1,31 @@
+{
+  "name": "restaurante-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de restaurante con WebPay y email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "restaurant",
+    "webpay",
+    "nodejs",
+    "express",
+    "email"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
